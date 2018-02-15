@@ -17,7 +17,7 @@ public class HelloWorld {
 	@Produces("text/html")
 	public Response getCustomer() {
 
-		String out = "I am a local customer";
+		String out = "I am a local customer yeah";
 
 		return Response.status(200).entity(out).build();
 
